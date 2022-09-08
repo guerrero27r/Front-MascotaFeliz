@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagenes/Logdoc.png" />
-    <title>Inicio</title>
+    <title>Mascota</title>
     <link href="Css/Estilos.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -37,33 +37,41 @@
         </div>
     </header>
 
-    <H1>Registro Mascota</H1>
+    <section class="form-group">
+        <figure class="form-fig">
+            <img class=" img-form" src="Imagenes/pets.png" alt="">
+        </figure>
+        <div class="form-reg">
+            <h2 class="title-form">Bienvenido!</h2>
+            <p class="paragraph">Registar Mascota</p>
 
-    <div class="form">
-        <form class="form-reg">
-            <label for="name">Nombre:</label><br>
-            <input type="text" id="name" name="name" value="John"><br>
-            <label for="lname">Apellidos:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br>
-            <label for="address">Direccion:</label><br>
-            <input type="text" id="address" name="address" value="calle sin sentido"><br>
-            <label for="phone">Telefono:</label><br>
-            <input type="text" id="phone" name="phone" value="3101234567"><br>
-            <label for="email">Correo</label><br>
-            <input type="text" id="email" name="email" value="sin@mail.com"><br><br>
-            <div class="button">
-                <input type="submit" value="Registar">
-                <input type="button" value="Modificar">
-                <input type="button" value="Consultar">
-                <input type="button" value="Eliminar">
+            <form class="main-form">
+                <input type="text" placeholder="Ingresar Nombre Masscota" class="main-input">
+                <input type="text" placeholder="Ingresar Color" class="main-input">
+                <input type="text" placeholder="Ingresar Especie" class="main-input">
+                <input type="text" placeholder="Ingresar Raza" class="main-input">
+                <input type="text" placeholder="Ingresar Dueño" class="main-input">
+                <input type="text" placeholder="Ingresar Veterinario" class="main-input">
+                <input type="text" placeholder="Ingresar Historia" class="main-input">
+                <input type="submit" value="Registrar" class="main-input--send">
+                <input type="submit" value="Modificar" class="main-input--send">
+                <input type="submit" value="Editar" class="main-input--send">
+                <input type="submit" value="Eliminar" class="main-input--del">
+            </form>
 
-            </div>
+        </div>
 
 
 
+    </section>
 
 
-        </form>
+
+
+
+
+
+    </form>
     </div>
 
 

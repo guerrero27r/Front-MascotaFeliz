@@ -18,19 +18,6 @@ header {
     background: #216583;
 }
 
-body {
-    margin-top: 80px;
-    width: 100%;
-
-}
-
-h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    color: black;
-    text-align: center;
-}
-
 
 
 /*nav-bar*/
@@ -184,7 +171,137 @@ nav ul li ul li a:hover {
 }
 
 /*formulario*/
-.form {
+
+body {
+    min-height: 600px;
+    padding: 100px 0;
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+    background-color: #a3bded;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.form-group {
+    margin: auto;
+    width: 90%;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.451), rgba(255, 255, 255, 0.36));
+    overflow: hidden;
+    padding: .7em;
+    border-radius: 1em;
+
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: .6em;
+    animation: mostrar 1.5s ease-in-out;
+
+}
+
+@keyframes mostrar {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.form-fig {
+    overflow: hidden;
+    border-radius: 1em;
+    display: flex;
+    background-color: #000000;
+
+}
+
+.img-form {
+    width: 80%;
+    margin: auto;
+    max-width: 60vw;
+}
+
+.form-reg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 3em .7em;
+    text-align: center;
+}
+
+.main-form {
+    display: grid;
+    justify-items: center;
+    gap: 1em;
+}
+
+.main-input {
+    width: 80%;
+    max-width: 500px;
+    outline: none;
+    border: none;
+    padding: 1em;
+    font: inherit;
+    border-radius: .6em;
+
+}
+
+.main-input--send {
+    width: 80%;
+    max-width: 500px;
+    outline: none;
+    border: none;
+    padding: 1em;
+    font: inherit;
+    border-radius: .6em;
+    background-color: #4e15c1;
+    color: white;
+    font-weight: 200;
+
+
+}
+
+.main-input--del {
+    width: 80%;
+    max-width: 500px;
+    outline: none;
+    border: none;
+    padding: 1em;
+    font: inherit;
+    border-radius: .6em;
+    background-color: #DC3F31;
+    color: white;
+    font-weight: 200;
+
+
+}
+
+.title-form {
+    font-size: 2.3rem;
+}
+
+.paragraph {
+    margin: .3em 0;
+}
+
+/*.
+
+
+    
+body {
+    margin-top: 80px;
+    width: 100%;
+
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: black;
+    text-align: center;
+}
+form {
     box-sizing: border-box;
     z-index: -1;
     width: 100%;
@@ -220,6 +337,8 @@ nav ul li ul li a:hover {
     flex-direction: column;
 
 }
+*/
+
 
 @media screen and (max-width:720px) {
     .logo-img {
@@ -239,8 +358,29 @@ nav ul li ul li a:hover {
         height: 230px;
         transition: all 300ms ease;
         z-index: 100;
-        opacity: 1;
-        visibility: visible;
+        *opacity: 0;
+        *visibility: hidden;
 
+    }
+
+    nav>ul>li>a:hover {
+        transform: scale(1);
+    }
+
+    nav ul li ul {
+        right: 90px;
+    }
+
+    nav>ul>li:hover ul {
+        top: 70px;
+    }
+
+    nav>ul>li :first-child a {
+        background-position: 20px;
+
+    }
+
+    #selected {
+        transform: scale(1);
     }
 }
