@@ -645,10 +645,22 @@ form {
 
     .main-input--send {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 
     .main-input--del {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 
 }
@@ -777,10 +789,22 @@ form {
 
     .main-input--send {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 
     .main-input--del {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 }
 
@@ -924,10 +948,22 @@ form {
 
     .main-input--send {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 
     .main-input--del {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 }
 
@@ -1011,10 +1047,22 @@ form {
 
     .main-input--send {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 
     .main-input--del {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 }
 
@@ -1143,9 +1191,21 @@ form {
 
     .main-input--send {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 
     .main-input--del {
         width: 100%;
+        max-width: 500px;
+        outline: none;
+        border: none;
+        padding: 1em;
+        font: inherit;
+        border-radius: 0.6em;
     }
 }
