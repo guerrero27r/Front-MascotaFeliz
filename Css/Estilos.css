@@ -239,7 +239,37 @@ nav ul li ul li a:hover {
     display: none;
 }
 
+.p-inicio {
+    display: flex;
+    flex-direction: column;
+}
 
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.p-bod {
+    margin: 30px;
+    height: auto;
+}
+
+.section-text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.img-p7 {
+    margin: auto;
+    padding: 70px 20px;
+}
+
+.img-7 {
+    width: 100%;
+    height: 100%;
+}
 
 /*formulario*/
 
@@ -431,6 +461,7 @@ body {
 
     text-align: center;
     width: 100%;
+    height: 120px;
     margin: auto;
     color: #fff;
     font-weight: 600;
@@ -772,7 +803,7 @@ form {
         width: 100%;
         height: 200px;
         padding: 40px 0;
-        z-index: -100;
+
     }
 
     /*Nav-bar*/
